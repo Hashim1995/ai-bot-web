@@ -28,7 +28,7 @@ const Footer = () => {
                       />
                       <Image
                         className="logo-dark"
-                        src={logoDark}
+                        src={logo}
                         width={75}
                         height={75}
                         alt="Corporate Logo"

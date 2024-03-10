@@ -2,7 +2,6 @@ import Image from "next/image";
 import { useAppContext } from "@/context/Context";
 
 import logoLight from "../../public/images/logo/logo.png";
-import logoDark from "../../public/images/logo/logo-dark.png";
 
 import Nav from "./Nav";
 import SmallNav from "./SmallNav";
@@ -44,7 +43,7 @@ const PopupMobileMenu = () => {
                 />
                 <Image
                   className="logo-dark"
-                  src={logoDark}
+                  src={logoLight}
                   width={172}
                   height={30}
                   alt="Corporate Logo"

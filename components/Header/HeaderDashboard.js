@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useAppContext } from "@/context/Context";
 
 import logo from "../../public/images/logo/logo.png";
-import logoDark from "../../public/images/logo/logo-dark.png";
 import avatar from "../../public/images/team/team-01.jpg";
 
 import Nav from "./Nav";
@@ -49,7 +48,7 @@ const HeaderDashboard = ({ display }) => {
                     />
                     <Image
                       className="logo-dark"
-                      src={logoDark}
+                      src={logo}
                       width={201}
                       height={35}
                       alt="Corporate Logo"
