@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import logo from "../../public/images/logo/aizadə.png";
-import logoDark from "../../public/images/logo/aizadə.PNG";
 
 import FooterData from "../../data/footer.json";
 import SingleFooter from "./FooterProps/SingleFooter";
@@ -37,7 +36,8 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p className="b1 text-center mt--20 mb--0">
-                  Unlock The Future of Productivity and Creativity With AI-zade
+                    Unlock The Future of Productivity and Creativity With
+                    AI-zade
                   </p>
                 </div>
               </div>
