@@ -1,0 +1,234 @@
+
+
+{
+  "service": [
+    {
+      "title": "Maximize Efficiency",
+      "desc": "Leverage AI-zadə to streamline workflows, automate mundane tasks, and unlock unparalleled time savings, catapulting your productivity to new heights.",
+      "icon": "activity",
+      "delay": 100
+    },
+    {
+      "title": "Precision Perfected",
+      "desc": "AI-zadə's sophisticated algorithms ensure meticulous attention to detail, delivering error-free outputs and data-driven decisions that stand the test of scrutiny.",
+      "icon": "cast",
+      "delay": 100
+    },
+    {
+      "title": "Tailored Excellence",
+      "desc": "Experience bespoke AI assistance fine-tuned to your unique preferences, learning styles, and operational demands, ensuring a custom-fit solution for every challenge.",
+      "icon": "map",
+      "delay": 200
+    },
+    {
+      "title": "Elevate Your Ambitions",
+      "desc": "Empower your expansion with AI-zadə, designed to scale seamlessly alongside your evolving business needs, from startups to large enterprises.",
+      "icon": "loader",
+      "delay": 100
+    },
+    {
+      "title": "Pioneer Forward",
+      "desc": "Stay at the vanguard of your industry with cutting-edge AI capabilities that drive innovation, enhance creative processes, and inspire groundbreaking ideas.",
+      "icon": "speaker",
+      "delay": 100
+    },
+    {
+      "title": "Unwavering Support",
+      "desc": "Access 24/7 assistance and expert insights from AI-zadə, ensuring you're fully equipped to tackle new challenges and maximize the potential of your AI-driven endeavors.",
+      "icon": "terminal",
+      "delay": 200
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1.Choose Assistant",
+      "desc": "Easy select suitable assistant."
+    },
+    {
+      "title": "2.Pick Plan",
+      "desc": "Quick plan choice."
+    },
+    {
+      "title": "3.Set Up Profile",
+      "desc": "Rapid setup customization."
+    },
+    {
+      "title": "4.Send Requests",
+      "desc": "Effortless request submission."
+    },
+    {
+      "title": "5.Receive Assistance",
+      "desc": "Instant AI help."
+    },
+    {
+      "title": "6.Monitor & Adjust",
+      "desc": "Simple progress tracking."
+    }
+  ],
+  "pricing": [
+    {
+      "title": "Basic",
+      "price": 0,
+      "text": "",
+      "subTitle": "Forever",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "7,700 Words",
+          "isMinus": false
+        },
+        {
+          "text": "6+ Templates",
+          "isMinus": false
+        },
+        {
+          "text": "5+ Languages",
+          "isMinus": false
+        },
+        {
+          "text": "AI Blog generate",
+          "isMinus": true
+        },
+        {
+          "text": "Advance Editor Tool",
+          "isMinus": true
+        },
+        {
+          "text": "Consistent support",
+          "isMinus": true
+        }
+      ]
+    },
+    {
+      "title": "Business",
+      "price": 50,
+      "text": "",
+      "subTitle": "USD Per Month",
+      "isActive": true,
+      "subItem": [
+        {
+          "text": "80,000 Words",
+          "isMinus": false
+        },
+        {
+          "text": "6+ Templates",
+          "isMinus": false
+        },
+        {
+          "text": "5+ Languages",
+          "isMinus": false
+        },
+        {
+          "text": "AI Blog generate",
+          "isMinus": false
+        },
+        {
+          "text": "Advance Editor Tool",
+          "isMinus": false
+        },
+        {
+          "text": "Consistent support",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "price": 100,
+      "text": "",
+      "subTitle": "USD Per Month",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "100,000 Words",
+          "isMinus": false
+        },
+        {
+          "text": "6+ Templates",
+          "isMinus": false
+        },
+        {
+          "text": "5+ Languages",
+          "isMinus": false
+        },
+        {
+          "text": "AI Blog generate",
+          "isMinus": false
+        },
+        {
+          "text": "Advance Editor Tool",
+          "isMinus": false
+        },
+        {
+          "text": "Consistent support",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Enterprise",
+      "price": 40,
+      "text": "Let's Talk",
+      "subTitle": "Forever",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "3,580,000 Words",
+          "isMinus": false
+        },
+        {
+          "text": "16+ Templates",
+          "isMinus": false
+        },
+        {
+          "text": "8+ Languages",
+          "isMinus": false
+        },
+        {
+          "text": "AI Blog generate",
+          "isMinus": false
+        },
+        {
+          "text": "Advance Editor Tool",
+          "isMinus": false
+        },
+        {
+          "text": "Consistent support",
+          "isMinus": false
+        }
+      ]
+    }
+  ],
+  "accordion": [
+    {
+      "title": "What is AI-zadə?",
+      "desc": "AI-zadə is an advanced AI assistant platform designed to offer a wide range of services, including email marketing, presentation creation, project management, and digital marketing assistance, tailored to enhance your productivity and efficiency.",
+      "isExpand": true
+    },
+    {
+      "title": "How does AI-zadə work?",
+      "desc": "AI-zadə works by leveraging artificial intelligence to understand and execute tasks based on user requests. Simply choose your assistant, select a plan, and start interacting with your AI through our user-friendly interface to receive personalized support.",
+      "isExpand": false
+    },
+    {
+      "title": "How can I choose the right AI assistant for my needs?",
+      "desc": "Each of our AI assistants specializes in different areas. Review the descriptions of our assistants—Adam, Sophia, Brahim, and Sara—to determine which one aligns with your specific needs. If you're unsure, our team is here to help you make the best choice.",
+      "isExpand": false
+    },
+    {
+      "title": "What subscription plans are available?",
+      "desc": "We offer various subscription plans to suit different requirements and budgets, ranging from basic to premium options. Each plan includes a specific number of requests per month, ensuring flexibility and scalability for all users.",
+      "isExpand": false
+    },
+    {
+      "title": "Is my data secure with AI-zadə?",
+      "desc": "Absolutely. Data security and privacy are our top priorities. We employ state-of-the-art encryption and follow strict data protection regulations to ensure your information remains confidential and secure at all times.",
+      "isExpand": false
+    },
+    {
+      "title": "How can I get support if I encounter issues?",
+      "desc": "Our dedicated support team is available 24/7 to assist you with any queries or issues. You can reach out via our email or phone. We're here to ensure a smooth and efficient experience with AI-zade",
+      "isExpand": false
+    }
+  ]
+}

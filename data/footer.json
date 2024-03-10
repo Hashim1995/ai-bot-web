@@ -1,0 +1,58 @@
+{
+  "footer": [
+    {
+      "desc": "2000+ Our clients are subscribe Around the World",
+      "title": "Newsletter",
+      "services": [
+        {
+          "title": "Services",
+          "top": true,
+          "innerItem": [
+            {
+              "text": "About",
+              "link": "#about"
+            }
+        
+          ]
+        }
+      ],
+      "products": [
+        {
+          "title": "Products",
+          "top": false,
+          "innerItem": [
+            {
+              "text": "AI-Zades",
+              "link": "#AI-Zades"
+            }
+       
+          ]
+        }
+      ],
+      "company": [
+        {
+          "title": "Company",
+          "top": true,
+          "innerItem": [
+            {
+              "text": "Corporate",
+              "link": "#"
+            }
+          ]
+        }
+      ],
+      "solutions": [
+        {
+          "title": "Solutions",
+          "top": false,
+          "innerItem": [
+            {
+              "text": "Gallery",
+              "link": "#"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
