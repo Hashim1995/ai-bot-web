@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import splitImg from "../../public/images/split/split-8.png";
+import splitImg from "../../public/images/split/split.webp";
 import Link from "next/link";
 
 const Split = () => {
@@ -44,11 +44,11 @@ const Split = () => {
                     </p>
                     <div className="icon fs-1 d-flex align-items-center gap-3">
                       <i className="feather-phone"></i>
-                      <span className="fs-3">+994515215376 </span> 
+                      <span className="fs-3">+994515215376 </span>
                     </div>
                     <div className="icon fs-1 d-flex align-items-center gap-3">
                       <i className="feather-mail"></i>
-                      <span className="fs-3">info@ablarva.com </span> 
+                      <span className="fs-3">info@ablarva.com </span>
                     </div>
                     {/* <ul
                       className="split-list"

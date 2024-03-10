@@ -46,13 +46,18 @@ const CallToAction = () => {
                           data-sal-duration="400"
                           data-sal-delay="350"
                         >
-                          <Link
-                            className="btn-default bg-light-gradient btn-large"
-                            href="/text-generator"
+                          <a
+                            className="btn-default cursor-pointer bg-light-gradient btn-large"
+                            href="https://app.aizade.az" // Ensure your URL is complete with http:// or https://
+                            target="_blank"
+                            style={{
+                              cursor: "pointer",
+                            }}
+                            rel="noopener noreferrer"
                           >
                             <div className="has-bg-light"></div>
                             <span>Start writing for free</span>
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>

@@ -4,18 +4,16 @@ import Link from "next/link";
 
 import "venobox/dist/venobox.min.css";
 
-import bannerImg from "../../public/images/banner/banner-image-03.png";
+import bannerImg from "../../public/images/banner/aibg.webp";
 import separator from "../../public/images/separator/separator-top.svg";
-
 
 const Home = () => {
   const features = [
-    'Discovers leads with 250 million contacts & 65 data points',
-    'Writes & sends bespoke email sequences to 1000s of prospects',
-    'Replies to prospects’ questions',
-    'Books meetings into SDRs’ calendars',
+    "Discovers leads with 250 million contacts & 65 data points",
+    "Writes & sends bespoke email sequences to 1000s of prospects",
+    "Replies to prospects’ questions",
+    "Books meetings into SDRs’ calendars",
   ];
-  
 
   // useEffect(() => {
   //   import("venobox/dist/venobox.min.js").then((venobox) => {
@@ -36,22 +34,37 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--60">
                 <h1 className="title display-one">
-                Unlock The Future of Productivity and Creativity With <br />
-                  <span className="theme-gradient">AI-zade</span> 
+                  Unlock The Future of Productivity and Creativity With <br />
+                  <span className="theme-gradient">AI-zade</span>
                   <br />
                   {/* <span className="color-off"></span> */}
                 </h1>
                 <p className="b1 desc-text">
-                  Your Personal AI Assistant Designed to Streamline Your Life and Work
+                  Your Personal AI Assistant Designed to Streamline Your Life
+                  and Work
                 </p>
                 <div className="button-group">
-                  <Link
-                    className="btn-default bg-light-gradient btn-large"
-                    href="/"
+                  <a
+                    className="btn-default cursor-pointer bg-light-gradient btn-large"
+                    href="https://app.aizade.az" // Ensure your URL is complete with http:// or https://
+                    target="_blank"
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    rel="noopener noreferrer"
                   >
                     <div className="has-bg-light"></div>
                     <span>Start writing for free</span>
-                  </Link>
+                  </a>
+                  {/* <Link
+                    className="btn-default  bg-light-gradient btn-large"
+                    href="https://www.app.aizade.az"
+                    passHref
+                    target="_blank"
+                  >
+                    <div className="has-bg-light"></div>
+                    <span>Start writing for free</span>
+                  </Link> */}
                 </div>
                 <p className="color-gray mt--5">💳 No credit card required!</p>
               </div>
@@ -78,7 +91,6 @@ const Home = () => {
           <Image className="w-100" src={separator} alt="" />
         </div>
       </div>
-
     </>
   );
 };

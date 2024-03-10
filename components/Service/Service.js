@@ -5,17 +5,21 @@ import sal from "sal.js";
 import ServiceItem from "./ServiceItem";
 import ServiceData from "../../data/home.json";
 // icons
-import checkmarkIcon from '../../public/images/icons/checkmark.svg'
-import graphIcon from '../../public/images/icons/graph.svg'
-import lightbulbIcon from '../../public/images/icons/lightbulb.svg'
-import stopwatchIcon from '../../public/images/icons/stopwatch.svg'
-import supporthandsIcon from '../../public/images/icons/supporthands.svg'
-import useravatarIcon from '../../public/images/icons/useravatar.svg'
+import checkmarkIcon from "../../public/images/icons/checkmark.svg";
+import graphIcon from "../../public/images/icons/graph.svg";
+import lightbulbIcon from "../../public/images/icons/lightbulb.svg";
+import stopwatchIcon from "../../public/images/icons/stopwatch.svg";
+import supporthandsIcon from "../../public/images/icons/supporthands.svg";
+import useravatarIcon from "../../public/images/icons/useravatar.svg";
 
 const icons = [
-  stopwatchIcon,checkmarkIcon,useravatarIcon,graphIcon,lightbulbIcon,supporthandsIcon
-]
-
+  stopwatchIcon,
+  checkmarkIcon,
+  useravatarIcon,
+  graphIcon,
+  lightbulbIcon,
+  supporthandsIcon,
+];
 
 const Service = () => {
   useEffect(() => {
@@ -48,18 +52,20 @@ const Service = () => {
                 <h4 className="subtitle">
                   <span className="theme-gradient">GET IN TOUCH FOR FREE</span>
                 </h4>
+
                 <h2 className="title w-600 mb--20">
-                Transforming Potential into Performance
+                  Transforming Potential into Performance
                 </h2>
                 <p className="description b1">
-                Discover how AI-zadə unlocks new levels of efficiency, creativity, and success for you.
+                  Discover how AI-zadə unlocks new levels of efficiency,
+                  creativity, and success for you.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="row row--15 service-wrapper">
-            <ServiceItem ServiceData={ServiceData} icons={icons}/>
+            <ServiceItem ServiceData={ServiceData} icons={icons} />
           </div>
         </div>
       </div>

@@ -33,56 +33,68 @@ const Timeline = () => {
                   <span className="theme-gradient">HOW IT WORKS</span>
                 </h4>
                 <h2 className="title w-600 mb--20">
-                Simple Steps to Smarter Assistance
+                  Simple Steps to Smarter Assistance
                 </h2>
               </div>
             </div>
           </div>
           <div className="row">
-  <div className="col-lg-10 offset-lg-1 mt--30">
-    <div className="timeline-style-two bg-flashlight bg-color-blackest">
-      <div className="row row--0">
-        {TimnelineData && TimnelineData.timeline.map((data, index) => (
-          <div className="col-lg-2 col-md-2 rainbow-timeline-single dark-line" key={index}>
-            <div className="rainbow-timeline">
-              <h6
-                className="title"
-                style={{ height: '3em', overflow: 'hidden' }}
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="200"
-              >
-                {data.title}
-              </h6>
-              <div className="progress-line">
-                <div className="line-inner"></div>
-              </div>
-              <div className="progress-dot">
-                <div className="dot-level">
-                  <div className="dot-inner"></div>
+            <div className="col-lg-10 offset-lg-1 mt--30">
+              <div className="timeline-style-two bg-flashlight bg-color-blackest">
+                <div className="row row--0">
+                  {TimnelineData &&
+                    TimnelineData.timeline.map((data, index) => (
+                      <div
+                        className="col-lg-2 col-md-2 rainbow-timeline-single dark-line"
+                        key={index}
+                      >
+                        <div className="rainbow-timeline">
+                          <h6
+                            className="title"
+                            style={{ height: "3em", overflow: "hidden" }}
+                            data-sal="slide-up"
+                            data-sal-duration="700"
+                            data-sal-delay="200"
+                          >
+                            {data.title}
+                          </h6>
+                          <div className="progress-line">
+                            <div className="line-inner"></div>
+                          </div>
+                          <div className="progress-dot">
+                            <div className="dot-level">
+                              <div className="dot-inner"></div>
+                            </div>
+                          </div>
+                          <p
+                            className="description"
+                            data-sal="slide-up"
+                            data-sal-duration="700"
+                            data-sal-delay="300"
+                          >
+                            {data.desc}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
                 </div>
               </div>
-              <p
-                className="description"
-                data-sal="slide-up"
-                data-sal-duration="700"
-                data-sal-delay="300"
-              >
-                {data.desc}
-              </p>
+              <div className="button-group mt--50 text-center">
+                <a
+                  style={{
+                    cursor: "pointer",
+                  }}
+                  className="btn-default cursor-pointer bg-light-gradient btn-large"
+                  href="https://app.aizade.az" // Ensure your URL is complete with http:// or https://
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="has-bg-light"></div>
+                  <span>Start writing for free</span>
+                </a>
+              </div>
             </div>
           </div>
-        ))}
-      </div>
-    </div>
-    <div className="button-group mt--50 text-center">
-      <Link className="btn-default btn-large" href="/">
-        Start writing for free
-      </Link>
-    </div>
-  </div>
-</div>
-
         </div>
       </div>
     </>
