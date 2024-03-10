@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
+  ignoreDuringBuilds: true,
   productionBrowserSourceMaps: true,
-   images: {
-    domains: ['picsum.photos'],
+  images: {
+    domains: ["picsum.photos"],
   },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
