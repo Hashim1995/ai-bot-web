@@ -30,7 +30,7 @@
         .title {
             font-size: 36px;
             line-height: 50px;
-            color: var(--color-heading);
+            // color: var(--color-heading);
             font-weight: var(--p-bold);
             @media #{$sm-layout} {
                 font-size: 24px;

@@ -10,6 +10,7 @@ import "../node_modules/sal.js/dist/sal.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-tooltip/dist/react-tooltip.css";
+import '../public/scss/template/_lightmode.scss'; 
 // ========= Plugins CSS END =========
 
 import "../public/scss/style.scss";
@@ -35,5 +36,11 @@ export default function App({ Component, pageProps }) {
     };
   }, []);
 
-  return <>{loading ? <Loading /> : <Component {...pageProps} />}</>;
+  return <>{loading ? <Loading /> : 
+  <div className="active-light-mode">
+     <Component {...pageProps} />
+  </div>
+ 
+  
+  }</>;
 }

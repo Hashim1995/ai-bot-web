@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import "venobox/dist/venobox.min.css";
 
-import bannerImg from "../../public/images/banner/aibg.webp";
+import bannerImg from "../../public/images/banner/ai1.jpg";
 import separator from "../../public/images/separator/separator-top.svg";
 
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
     <>
       <div
         className="slider-area slider-style-1 variation-default slider-bg-image bg-banner1"
-        data-black-overlay="1"
+        data-white-overlay="1"
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -35,7 +35,7 @@ const Home = () => {
               <div className="inner text-center mt--60">
                 <h1 className="title display-one">
                   Unlock The Future of Productivity and Creativity With <br />
-                  <span className="theme-gradient">AI-zade</span>
+                  <span className="theme-gradient">ABLARVA</span>
                   <br />
                   {/* <span className="color-off"></span> */}
                 </h1>
@@ -88,7 +88,7 @@ const Home = () => {
           </div>
         </div>
         <div className="chatenai-separator has-position-bottom">
-          <Image className="w-100" src={separator} alt="" />
+          {/* <Image className="w-100" src={separator} alt="" /> */}
         </div>
       </div>
     </>

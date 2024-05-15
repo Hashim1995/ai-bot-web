@@ -2,7 +2,8 @@
 :root {
 
     // Theme Color
-    --color-primary: #7064e9;
+    // --color-primary: #7064e9;
+    --color-primary: #1a6eb7 ;
     --color-primary-alt: #35316f;
 
     --color-secondary: #410093;
@@ -29,8 +30,12 @@
     
     // Typo Color 
     --color-heading: #ccceef;
-    --color-body: #7376aa;
+    // --color-body: #7376aa;
+    --color-body:#5394cc;
     --color-text-off: #565e78;
+
+    //custom extra
+    --color-heading-custom:#2c7cbc;
 
     --color-dark: #070710;
     --color-darker: rgba(6, 6, 6, 0.7);

@@ -4,13 +4,13 @@
   "service": [
     {
       "title": "Maximize Efficiency",
-      "desc": "Leverage AI-zadə to streamline workflows, automate mundane tasks, and unlock unparalleled time savings, catapulting your productivity to new heights.",
+      "desc": "Leverage Ablarva to streamline workflows, automate mundane tasks, and unlock unparalleled time savings, catapulting your productivity to new heights.",
       "icon": "activity",
       "delay": 100
     },
     {
       "title": "Precision Perfected",
-      "desc": "AI-zadə's sophisticated algorithms ensure meticulous attention to detail, delivering error-free outputs and data-driven decisions that stand the test of scrutiny.",
+      "desc": "Ablarva's sophisticated algorithms ensure meticulous attention to detail, delivering error-free outputs and data-driven decisions that stand the test of scrutiny.",
       "icon": "cast",
       "delay": 100
     },
@@ -22,7 +22,7 @@
     },
     {
       "title": "Elevate Your Ambitions",
-      "desc": "Empower your expansion with AI-zadə, designed to scale seamlessly alongside your evolving business needs, from startups to large enterprises.",
+      "desc": "Empower your expansion with Ablarva, designed to scale seamlessly alongside your evolving business needs, from startups to large enterprises.",
       "icon": "loader",
       "delay": 100
     },
@@ -34,7 +34,7 @@
     },
     {
       "title": "Unwavering Support",
-      "desc": "Access 24/7 assistance and expert insights from AI-zadə, ensuring you're fully equipped to tackle new challenges and maximize the potential of your AI-driven endeavors.",
+      "desc": "Access 24/7 assistance and expert insights from Ablarva, ensuring you're fully equipped to tackle new challenges and maximize the potential of your AI-driven endeavors.",
       "icon": "terminal",
       "delay": 200
     }
@@ -201,13 +201,13 @@
   ],
   "accordion": [
     {
-      "title": "What is AI-zadə?",
-      "desc": "AI-zadə is an advanced AI assistant platform designed to offer a wide range of services, including email marketing, presentation creation, project management, and digital marketing assistance, tailored to enhance your productivity and efficiency.",
+      "title": "What is Ablarva?",
+      "desc": "Ablarva is an advanced AI assistant platform designed to offer a wide range of services, including email marketing, presentation creation, project management, and digital marketing assistance, tailored to enhance your productivity and efficiency.",
       "isExpand": true
     },
     {
-      "title": "How does AI-zadə work?",
-      "desc": "AI-zadə works by leveraging artificial intelligence to understand and execute tasks based on user requests. Simply choose your assistant, select a plan, and start interacting with your AI through our user-friendly interface to receive personalized support.",
+      "title": "How does Ablarva work?",
+      "desc": "Ablarva works by leveraging artificial intelligence to understand and execute tasks based on user requests. Simply choose your assistant, select a plan, and start interacting with your AI through our user-friendly interface to receive personalized support.",
       "isExpand": false
     },
     {
@@ -221,7 +221,7 @@
       "isExpand": false
     },
     {
-      "title": "Is my data secure with AI-zadə?",
+      "title": "Is my data secure with Ablarva?",
       "desc": "Absolutely. Data security and privacy are our top priorities. We employ state-of-the-art encryption and follow strict data protection regulations to ensure your information remains confidential and secure at all times.",
       "isExpand": false
     },

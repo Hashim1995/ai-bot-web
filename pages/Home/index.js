@@ -18,7 +18,7 @@ import CardsWithAvatarSection from "@/components/CardsWithAvatarSection/CardsWit
 
 const HomePage = () => {
   return (
-    <>
+    <div className="active-light-mode">
       <PageHead title="Home" />
 
       <main className="page-wrapper">
@@ -36,17 +36,17 @@ const HomePage = () => {
 
           <CardsWithAvatarSection/>
           </div>
-          <Separator top={false} />
+          {/* <Separator top={false} /> */}
           <div id="about">
 
           <Service />
           </div>
-          <Separator top={true} />
+          {/* <Separator top={true} /> */}
           <div id="time-line">
 
           <Timeline />
           </div>
-          <Separator top={false} />
+          {/* <Separator top={false} /> */}
          
           <div id="faq">
           <Accordion isHead={true} />
@@ -55,7 +55,7 @@ const HomePage = () => {
           {/* <Brands /> */}
           {/* <Separator top={false} /> */}
           {/* <CallToAction /> */}
-          <Separator top={true} />
+          {/* <Separator top={true} /> */}
           <Split />
           {/* <Separator top={true} /> */}
           {/* <Pricing /> */}
@@ -64,7 +64,7 @@ const HomePage = () => {
           <Copyright />
         </Context>
       </main>
-    </>
+    </div>
   );
 };
 

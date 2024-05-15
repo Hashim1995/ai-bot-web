@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import splitImg from "../../public/images/split/split.webp";
+import splitImg from "../../public/images/banner/ai2.webp";
 import Link from "next/link";
 
 const Split = () => {
   return (
     <>
-      <div className="rainbow-split-area rainbow-section-gap">
+      <div className="rainbow-split-area rainbow-section-gap" data-white-overlay="1">
         <div className="container">
           <div className="rainbow-splite-style">
             <div className="split-wrapper">
@@ -28,7 +28,7 @@ const Split = () => {
                       data-sal-duration="400"
                       data-sal-delay="200"
                     >
-                      Let’s Connect: Reach Out to AI-zadə
+                      Let’s Connect: Reach Out to Ablarva
                     </h4>
                     <p
                       className="description"
@@ -37,7 +37,7 @@ const Split = () => {
                       data-sal-delay="300"
                     >
                       Your thoughts, questions, and collaborations matter to us.
-                      Whether you’re curious about AI-zadə, need support, or
+                      Whether you’re curious about Ablarva, need support, or
                       have feedback to share, our team is ready to listen and
                       assist. Contact us today, and let’s make the future of AI
                       assistance brighter together.

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useAppContext } from "@/context/Context";
 
-import logoLight from "../../public/images/logo/logo.png";
+import logoLight from "../../public/images/logo/logo-text-blue.webp";
 
 import Nav from "./Nav";
 import SmallNav from "./SmallNav";
@@ -37,15 +37,15 @@ const PopupMobileMenu = () => {
                 <Image
                   className="logo-light"
                   src={logoLight}
-                  width={172}
-                  height={30}
+                  width={155}
+                  height={155}
                   alt="Corporate Logo"
                 />
                 <Image
                   className="logo-dark"
                   src={logoLight}
-                  width={172}
-                  height={30}
+                  width={45}
+                  height={45}
                   alt="Corporate Logo"
                 />
               </Link>
@@ -62,10 +62,10 @@ const PopupMobileMenu = () => {
           <div className="content">
             <Nav />
 
-            <div className="rbt-sm-separator"></div>
-            <div className="rbt-default-sidebar-wrapper">
+            {/* <div className="rbt-sm-separator"></div> */}
+            {/* <div className="rbt-default-sidebar-wrapper">
               <SmallNav />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

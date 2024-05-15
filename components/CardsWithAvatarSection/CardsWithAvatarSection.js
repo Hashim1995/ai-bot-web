@@ -37,7 +37,9 @@ const functions = [
 
 export default function CardsWithAvatarSection() {
   return (
-    <div className="container pt--80 pb--100">
+    <div data-white-overlay="1">
+
+      <div className="container pt--80 pb--100" >
       <div className="row row-15">
         <CardWithAvatar
           title="Adam "
@@ -69,5 +71,7 @@ export default function CardsWithAvatarSection() {
         />
       </div>
     </div>
+    </div>
+    
   );
 }
