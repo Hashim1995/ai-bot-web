@@ -39,7 +39,7 @@ const Service = () => {
   }, []);
   return (
     <>
-      <div className="rainbow-service-area rainbow-section-gap">
+      <div className="rainbow-service-area rainbow-section-gap" data-white-overlay="1"> 
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -57,7 +57,7 @@ const Service = () => {
                   Transforming Potential into Performance
                 </h2>
                 <p className="description b1">
-                  Discover how AI-zadə unlocks new levels of efficiency,
+                  Discover how Ablarva unlocks new levels of efficiency,
                   creativity, and success for you.
                 </p>
               </div>

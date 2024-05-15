@@ -32,7 +32,8 @@ const ServiceItem = ({ ServiceData, icons }) => {
             data-sal-delay={`${data.delay}`}
             key={index}
           >
-            <div className="service service__style--1 bg-color-blackest radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
+            {/* bg-color-blackest  is dleeted */}
+            <div className="service service__style--1 box-shadow-cards-primary radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
               <div className="icon">
                 {/* <i className={`feather-${data.icon}`}></i> */}
                 <Image 
@@ -48,7 +49,8 @@ const ServiceItem = ({ ServiceData, icons }) => {
                 <h4 className="title w-600">
                   <Link href="#">{data.title}</Link>
                 </h4>
-                <p className="description b1 color-gray mb--0">{data.desc}</p>
+                 {/* color-gray is delelted */}
+                <p className="description b1  mb--0">{data.desc}</p>
               </div>
             </div>
           </div>

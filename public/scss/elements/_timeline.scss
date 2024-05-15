@@ -343,14 +343,14 @@ Timeline Area
             .progress-line {
                 .line-inner {
                     background-image: inherit;
-                    background: var(--color-primary-alt);
+                    background: #d8d8d8
                 }
             }
 
             .progress-dot {
                 .dot-level {
                     background-image: inherit;
-                    background: var(--color-primary-alt);
+                    background: #d8d8d8;
 
                     .dot-inner {
                         background-color: var(--color-primary);

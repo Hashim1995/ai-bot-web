@@ -55,7 +55,7 @@ div {
 
         &.bg-light-gradient {
             position: relative;
-            background: radial-gradient(85% 120% at 50% 125%, #ff3bd4 .74%, #7130c3 65%, #0f1021 100%);
+            background: linear-gradient(94deg, #88cdf6 10.66%, #1ca7ec 53.03%, #2d82b5 96.34%, #015c92 191.41%, rgba(255, 59, 212, 0) 191.43%);
             overflow: hidden;
             transition: var(--transition);
 
@@ -68,7 +68,7 @@ div {
                 opacity: 0;
                 visibility: hidden;
                 transition: all .3s ease-in-out;
-                background: radial-gradient(85% 142% at 50% 75%, #ff3bd4 .74%, #7130c3 65%, #0f1021 100%);
+                background: radial-gradient(85% 142% at 50% 75%, #1ca7ec .74%, #015c92 65%, #0f1021 100%);
             }
 
             &>span {
@@ -82,7 +82,7 @@ div {
                 }
 
                 transform: translateY(-5px);
-                box-shadow: 0px 24px 25px -21px #CE38CF;
+                box-shadow: 0px 24px 25px -21px #004e9a;
             }
         }
 

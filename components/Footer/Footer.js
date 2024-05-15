@@ -2,7 +2,7 @@ import Separator from "@/pages/separator";
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../public/images/logo/aizadə.png";
+import logo from "../../public/images/logo/logo-text-blue.webp";
 
 import FooterData from "../../data/footer.json";
 import SingleFooter from "./FooterProps/SingleFooter";
@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer className="rainbow-footer footer-style-default footer-style-3 position-relative">
-        <Separator top={true} />
+        {/* <Separator top={true} /> */}
         <div className="footer-top">
           <div className="container">
             <div className="row justify-content-center mb--30">
@@ -22,22 +22,22 @@ const Footer = () => {
                       <Image
                         className="logo-light"
                         src={logo}
-                        width={75}
-                        height={75}
+                        width={255}
+                        height={255}
                         alt="Corporate Logo"
                       />
                       <Image
                         className="logo-dark"
                         src={logo}
-                        width={75}
-                        height={75}
+                        width={255}
+                        height={255}
                         alt="Corporate Logo"
                       />
                     </Link>
                   </div>
                   <p className="b1 text-center mt--20 mb--0">
                     Unlock The Future of Productivity and Creativity With
-                    AI-zade
+                    ABLARVA
                   </p>
                 </div>
               </div>

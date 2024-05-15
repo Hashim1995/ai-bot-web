@@ -4,7 +4,7 @@
 
 /* Theme Gradient */
 .theme-gradient {
-    background: linear-gradient(90deg, #12B5DE -30%, #7130C3 30%, #FF3BD4 90%);
+    background: linear-gradient(90deg, #7BD5F5 -30%, #787FF6 30%, #1CA7EC, #1F2F98 90%);
     text-transform: capitalize;
     -webkit-background-clip: text;
     background-clip: text;
@@ -565,6 +565,8 @@
         bottom: 100%;
         top: auto;
     }
+
+    background-color: var(--color-custom-white);
 }
 
 .separator-animated {
@@ -572,7 +574,7 @@
     overflow: hidden;
     height: 2px;
     width: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(111, 100, 233, 0.60) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(44,124,188, 0.60) 50%, rgba(0, 0, 0, 0) 100%);
 
     &.animated-true {
         &::before {

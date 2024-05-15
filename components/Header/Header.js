@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../public/images/logo/aizadə.png";
+import logo from "../../public/images/logo/logo-text-blue.webp";
 import ToolsData from "../../data/header.json";
 
 import Nav from "./Nav";
@@ -45,15 +45,15 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                   <Image
                     className="logo-light"
                     src={logo}
-                    width={55}
-                    height={55}
+                    width={255}
+                    height={255}
                     alt="ChatBot Logo"
                   />
                 </Link>
-                <h3 className="theme-gradient m-0">
+                {/* <h3 className="theme-gradient m-0">
                   
                   AI-Zade
-                  </h3>
+                  </h3> */}
                   
               </div>
             </div>

@@ -513,7 +513,7 @@ textarea:-ms-input-placeholder {
 }
 
 [data-white-overlay]:before {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
 }
 
 @for $i from 1 through 10 {
@@ -521,7 +521,7 @@ textarea:-ms-input-placeholder {
     [data-overlay="#{$i}"]:before,
     [data-black-overlay="#{$i}"]:before,
     [data-white-overlay="#{$i}"]:before {
-        opacity: #{$i * 0.10};
+        opacity: #{$i };
     }
 }
 

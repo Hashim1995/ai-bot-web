@@ -4,7 +4,7 @@ import React from "react";
 const Copyright = () => {
   return (
     <>
-      <div className="copyright-area copyright-style-one">
+      <div className="copyright-area copyright-style-one" data-white-overlay="1">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-8 col-sm-12 col-12">
@@ -30,7 +30,7 @@ const Copyright = () => {
                     href="/"
                     className="btn-read-more ps-2"
                   >
-                    <span>AI-ZADE</span>
+                    <span>ABLARVA</span>
                   </Link>
                 </p>
               </div>

@@ -19,7 +19,7 @@ const Timeline = () => {
   }, []);
   return (
     <>
-      <div className="rainbow-timeline-area rainbow-section-gap">
+      <div className="rainbow-timeline-area rainbow-section-gap" data-white-overlay="1">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -40,7 +40,8 @@ const Timeline = () => {
           </div>
           <div className="row">
             <div className="col-lg-10 offset-lg-1 mt--30">
-              <div className="timeline-style-two bg-flashlight bg-color-blackest">
+            {/* bg-color-blackest is deleted */}
+              <div className="timeline-style-two bg-flashlight box-shadow-cards-primary">
                 <div className="row row--0">
                   {TimnelineData &&
                     TimnelineData.timeline.map((data, index) => (

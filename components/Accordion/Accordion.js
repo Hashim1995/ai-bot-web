@@ -9,7 +9,7 @@ const Accordion = ({ isHead }) => {
 
   return (
     <>
-      <div className="rainbow-accordion-area rainbow-section-gap">
+      <div className="rainbow-accordion-area rainbow-section-gap" data-white-overlay="1">
         <div className="container">
           {isHead ? (
             <div className="row">
