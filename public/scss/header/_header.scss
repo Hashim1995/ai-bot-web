@@ -12,8 +12,8 @@
     .logo {
         a {
             display: block;
-            height: 80px;
-            line-height: 80px;
+            height: 64px;
+            line-height: 64px;
             img {
                 max-height: 45px;
             }
@@ -90,6 +90,10 @@
             z-index: 9;
         }
     }
+    .logo-scale{
+        scale: 0.8 !important;
+        transform: scale(0.8) !important;
+      }
 }
 
 

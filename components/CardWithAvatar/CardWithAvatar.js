@@ -2,7 +2,13 @@ import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const CardWithAvatar = ({ title, description, imageUrl, functions, buttonUrl }) => {
+const CardWithAvatar = ({
+  title,
+  description,
+  imageUrl,
+  functions,
+  buttonUrl,
+}) => {
   const cardBodyRef = useRef(null);
 
   useEffect(() => {
@@ -23,24 +29,25 @@ const CardWithAvatar = ({ title, description, imageUrl, functions, buttonUrl }) 
     <div className="col-lg-3 col-md-6 col-12">
       <div className={`rainbow-pricing style-2`}>
         <div className="pricing-table-inner bg-flashlight pt--20 px-lg-5 d-flex flex-column align-items-center">
-          <Image
-            src={imageUrl}
-            alt="Avatar"
-            width={150}
-            height={150}
-            className="rounded-circle object-fit-cover"
-            style={{ height: "150px", width: "150px" }}
-          />
-
+          <Link href={buttonUrl}>
+            <Image
+              src={imageUrl}
+              alt="Avatar"
+              width={150}
+              height={150}
+              className="rounded-circle object-fit-cover"
+              style={{ height: "150px", width: "150px" }}
+            />
+          </Link>
           <div className="separator-animated animated-true mt--30 mb--30"></div>
 
           <div className="pricing-header ">
             <h4 className="title">{title}</h4>
-            <p>{description}</p>
+            <p className="b1">{description}</p>
             <div ref={cardBodyRef} className="pricing-body">
-              <ul className="">
+              <ul>
                 {functions?.map((item, index) => {
-                  return <li key={index}>{item}</li>;
+                  return <li className="b2" key={index}>{item}</li>;
                 })}
               </ul>
             </div>

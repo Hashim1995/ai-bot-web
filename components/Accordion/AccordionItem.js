@@ -35,7 +35,7 @@ const AccordionItem = () => {
                   aria-labelledby={`heading${index + 1}`}
                   data-bs-parent="#accordionExamplea"
                 >
-                  <div className="accordion-body card-body">{data.desc}</div>
+                  <div className="accordion-body card-body faq-answer">{data.desc}</div>
                 </div>
               </div>
             ))}

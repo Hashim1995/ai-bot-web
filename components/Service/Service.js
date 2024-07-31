@@ -56,7 +56,7 @@ const Service = () => {
                 <h2 className="title w-600 mb--20">
                   Transforming Potential into Performance
                 </h2>
-                <p className="description b1">
+                <p className="description subheading">
                   Discover how Ablarva unlocks new levels of efficiency,
                   creativity, and success for you.
                 </p>

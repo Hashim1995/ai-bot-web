@@ -40,21 +40,21 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
         <div className="container position-relative">
           <div className="row align-items-center row--0">
             <div className="col-lg-3 col-md-6 col-6">
-              <div className="logo d-flex align-items-center gap-3" >
+              <div className="logo d-flex align-items-center gap-3 logo-scale">
                 <Link href="/">
                   <Image
-                    className="logo-light"
+                    style={{ scale: 0.8 }}
+                    className="logo-light logo-scale"
                     src={logo}
-                    width={255}
-                    height={255}
-                    alt="ChatBot Logo"
+                    width={200}
+                    height={64}
+                    alt="Ablarva Logo"
                   />
                 </Link>
                 {/* <h3 className="theme-gradient m-0">
                   
                   AI-Zade
                   </h3> */}
-                  
               </div>
             </div>
             <div className="col-lg-9 col-md-6 col-6 position-static">

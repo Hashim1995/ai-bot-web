@@ -19,20 +19,24 @@ import CardsWithAvatarSection from "@/components/CardsWithAvatarSection/CardsWit
 const HomePage = () => {
   return (
     <div className="active-light-mode">
-      <PageHead title="Home" />
+      <PageHead 
+        title="Home" 
+        description="Welcome to Ablarva, your advanced AI assistant platform designed to revolutionize productivity and efficiency in various domains."
+        image="../../public/images/logo/logo-text-blue.webp" 
+      />
 
       <main className="page-wrapper">
-        <Context>
+        {/* <Context> */}
           {/* <HeaderTop /> */}
-          <Header
+          {/* <Header
             headerTransparent="header-not-transparent"
             headerSticky="header-sticky"
             btnClass="btn-small round"
           />
-          <PopupMobileMenu />
+          <PopupMobileMenu /> */}
 
           <Home />
-          <div id="AI-Zades">
+          <div id="assistants">
 
           <CardsWithAvatarSection/>
           </div>
@@ -60,9 +64,9 @@ const HomePage = () => {
           {/* <Separator top={true} /> */}
           {/* <Pricing /> */}
          
-          <Footer />  
-          <Copyright />
-        </Context>
+          {/* <Footer />  
+          <Copyright /> */}
+        {/* </Context> */}
       </main>
     </div>
   );

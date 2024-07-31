@@ -46,53 +46,53 @@
 }
 
 // Bg flashlight
-.bg-flashlight{
-    position: relative;
-    overflow: hidden;
-    // background: #d8d8d8;
-    &::before{
-        content: '';
-        position: absolute;
-        top: var(--y);
-        left: var(--x);
-        transform: translate(-50%, -50%);
-        background: radial-gradient(var(--color-primary), transparent, 
-        transparent);
-        width: 200%;
-        height: 200%;
-        opacity: 0;
-        transition:  0.5s,top 0s,left 0s;
-        border-radius: var(--radius);
-    }
-    &:hover{
-        &::before{
-            opacity: 1;
-        }
-    }
-    &::after{
-        content: '';
-        position: absolute;
-        inset: 2px;
-        // background: var(--color-blackest);
-        border-radius: var(--radius);
-    }
-    & > *{
-        z-index: 2;
-        position: relative;
-    }
-    &.bg-secondary{
-        &::before{
-            background: radial-gradient(var(--color-secondary), transparent, 
-            transparent);
-        }
-    }
-    &.bg-tertiary{
-        &::before{
-            background: radial-gradient(var(--color-tertiary), transparent, 
-            transparent);
-        }
-    }
-}
+// .bg-flashlight{
+//     position: relative;
+//     overflow: hidden;
+//     // background: #d8d8d8;
+//     &::before{
+//         content: '';
+//         position: absolute;
+//         top: var(--y);
+//         left: var(--x);
+//         transform: translate(-50%, -50%);
+//         background: radial-gradient(var(--color-primary), transparent, 
+//         transparent);
+//         width: 200%;
+//         height: 200%;
+//         opacity: 0;
+//         transition:  0.5s,top 0s,left 0s;
+//         border-radius: var(--radius);
+//     }
+//     &:hover{
+//         &::before{
+//             opacity: 1;
+//         }
+//     }
+//     &::after{
+//         content: '';
+//         position: absolute;
+//         inset: 2px;
+//         // background: var(--color-blackest);
+//         border-radius: var(--radius);
+//     }
+//     & > *{
+//         z-index: 2;
+//         position: relative;
+//     }
+//     &.bg-secondary{
+//         &::before{
+//             background: radial-gradient(var(--color-secondary), transparent, 
+//             transparent);
+//         }
+//     }
+//     &.bg-tertiary{
+//         &::before{
+//             background: radial-gradient(var(--color-tertiary), transparent, 
+//             transparent);
+//         }
+//     }
+// }
 
 // Bg flashlight Static
 .bg-flashlight-static{

@@ -33,7 +33,7 @@ const ServiceItem = ({ ServiceData, icons }) => {
             key={index}
           >
             {/* bg-color-blackest  is dleeted */}
-            <div className="service service__style--1 box-shadow-cards-primary radius mt--25 text-center rbt-border-none variation-4 bg-flashlight">
+            <div className="service service__style--1 box-shadow-cards-primary radius mt--25 text-center rbt-border-none variation-4 bg-flashlight ">
               <div className="icon">
                 {/* <i className={`feather-${data.icon}`}></i> */}
                 <Image 
@@ -46,11 +46,11 @@ const ServiceItem = ({ ServiceData, icons }) => {
                 />
               </div>
               <div className="content" style={{ height: '190px' }}> {/* Set a fixed height */}
-                <h4 className="title w-600">
+                <h4 className="title w-600 b1">
                   <Link href="#">{data.title}</Link>
                 </h4>
                  {/* color-gray is delelted */}
-                <p className="description b1  mb--0">{data.desc}</p>
+                <p className="description b2  mb--0">{data.desc}</p>
               </div>
             </div>
           </div>

@@ -35,11 +35,11 @@ const Home = () => {
               <div className="inner text-center mt--60">
                 <h1 className="title display-one">
                   Unlock The Future of Productivity and Creativity With <br />
-                  <span className="theme-gradient">ABLARVA</span>
+                  <span className="logo-font">ABLARVA</span>
                   <br />
                   {/* <span className="color-off"></span> */}
                 </h1>
-                <p className="b1 desc-text">
+                <p className="subheading">
                   Your Personal AI Assistant Designed to Streamline Your Life
                   and Work
                 </p>
@@ -66,12 +66,12 @@ const Home = () => {
                     <span>Start writing for free</span>
                   </Link> */}
                 </div>
-                <p className="color-gray mt--5">💳 No credit card required!</p>
+     
               </div>
             </div>
             <div className="col-lg-10 col-xl-10 order-1 order-lg-2">
-              <div className="frame-image frame-image-bottom bg-flashlight video-popup icon-center">
-                <Image src={bannerImg} alt="Banner Images" />
+              <div className="frame-image frame-image-bottom video-popup icon-center">
+                <Image src={bannerImg} alt="Banner Images" priority />
                 {/* <div className="video-icon">
                   <Link
                     className="btn-default rounded-player popup-video border bg-white-dropshadow"

@@ -35,7 +35,7 @@ const Footer = () => {
                       />
                     </Link>
                   </div>
-                  <p className="b1 text-center mt--20 mb--0">
+                  <p className="b1 text-center mt--20 mb--0 subheading">
                     Unlock The Future of Productivity and Creativity With
                     ABLARVA
                   </p>
@@ -70,6 +70,7 @@ const Footer = () => {
                   </div> */}
                   <SingleFooter data={data.services} />
                   <SingleFooter data={data.products} />
+                  <SingleFooter data={data.assistants} />
                   {/* <SingleFooter data={data.company} />
                   <SingleFooter data={data.solutions} /> */}
                 </div>

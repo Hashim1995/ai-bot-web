@@ -29,6 +29,31 @@
           ]
         }
       ],
+      "assistants": [
+        {
+          "title": "Assistants",
+          "top": false,
+          "innerItem": [
+            {
+              "text": "Brahim",
+              "link": "brahim"
+            },
+            {
+              "text": "Adam",
+              "link": "adam"
+            },
+            {
+              "text": "Sophia",
+              "link": "sophia"
+            },
+            {
+              "text": "Sara",
+              "link": "sara"
+            }
+       
+          ]
+        }
+      ],
       "company": [
         {
           "title": "Company",

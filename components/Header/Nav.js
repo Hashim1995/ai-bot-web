@@ -18,12 +18,12 @@ const Nav = () => {
     <>
       <ul className="mainmenu">
         <li>
-          <Link href="#AI-Zades" className={isActive("#AI-Zades") ? "active" : ""}>
+          <Link href="#assistants" className={isActive("#assistants") ? "active" : ""}>
             ABLARVA
           </Link>
         </li>
         <li>
-          <Link href="#about" className={isActive("#about") ? "active" : ""} >
+          <Link href="about" className={isActive("about") ? "active" : ""} >
             About
           </Link>
         </li>

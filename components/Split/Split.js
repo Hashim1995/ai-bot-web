@@ -31,7 +31,7 @@ const Split = () => {
                       Let’s Connect: Reach Out to Ablarva
                     </h4>
                     <p
-                      className="description"
+                      className="description b2"
                       data-sal="slide-up"
                       data-sal-duration="400"
                       data-sal-delay="300"

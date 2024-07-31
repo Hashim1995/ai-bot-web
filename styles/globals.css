@@ -102,6 +102,50 @@ a {
   text-decoration: none;
 }
 
+/* my custom classes */
+
+.bg-white-page{
+  background-color: var(--color-custom-white);
+}
+
+.text-black{
+  color: var(--color-extra05) !important;
+}
+
+
+.bg-image-wrapper {
+  background-image: url("../public/images/bg/blue-bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-image-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  start: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25); 
+}
+
+
+.logo-font{
+  font-family: var(--logo-font) !important;
+}
+
+.logo-scale{
+  scale: 0.8 !important;
+  transform: scale(0.8) !important;
+}
+
+.primary-heading-font-size{
+  font-size: 64px !important; 
+}
+
+/* ----- */
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

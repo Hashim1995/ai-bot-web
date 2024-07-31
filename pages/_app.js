@@ -10,11 +10,17 @@ import "../node_modules/sal.js/dist/sal.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-tooltip/dist/react-tooltip.css";
-import '../public/scss/template/_lightmode.scss'; 
+import "../public/scss/template/_lightmode.scss";
 // ========= Plugins CSS END =========
 
 import "../public/scss/style.scss";
 import Loading from "@/components/Loading/Loading";
+import Context from "@/context/Context";
+import PageHead from "./Head";
+import Header from "@/components/Header/Header";
+import PopupMobileMenu from "@/components/Header/PopupMobileMenu";
+import Footer from "@/components/Footer/Footer";
+import Copyright from "@/components/Footer/Copyright";
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
@@ -36,11 +42,31 @@ export default function App({ Component, pageProps }) {
     };
   }, []);
 
-  return <>{loading ? <Loading /> : 
-  <div className="active-light-mode">
-     <Component {...pageProps} />
-  </div>
- 
-  
-  }</>;
+  return (
+    <>
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="active-light-mode ">
+          <PageHead title="About Us" />
+
+          <main className="page-wrapper rbt-dashboard-page">
+            <Context>
+              <Header
+                headerTransparent="header-not-transparent"
+                headerSticky="header-sticky"
+                btnClass="btn-small round"
+              />
+              <PopupMobileMenu />
+              <div className="bg-white-page">
+                <Component {...pageProps} />
+              </div>
+              <Footer />
+              <Copyright />
+            </Context>
+          </main>
+        </div>
+      )}
+    </>
+  );
 }

@@ -91,7 +91,7 @@ const Timeline = () => {
                   rel="noopener noreferrer"
                 >
                   <div className="has-bg-light"></div>
-                  <span>Start writing for free</span>
+                  <span>Join</span>
                 </a>
               </div>
             </div>

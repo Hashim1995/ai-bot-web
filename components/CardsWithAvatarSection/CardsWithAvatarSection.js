@@ -45,28 +45,28 @@ export default function CardsWithAvatarSection() {
           title="Adam "
           description="Email Marketing Assistant"
           imageUrl={Assistant1}
-          buttonUrl="https://artisan.co/ava-sales-rep/"
+          buttonUrl="adam"
           functions={functions[0]}
         />
         <CardWithAvatar
           title="Sophia"
           description="Slide Maker Assistant"
           imageUrl={Assistant4}
-          buttonUrl="https://example.com/link2"
+          buttonUrl="sophia"
           functions={functions[1]}
         />
         <CardWithAvatar
           title="Brahim"
           description="Project Management Assistant"
           imageUrl={Assistant2}
-          buttonUrl="https://example.com/link3"
+          buttonUrl="brahim"
           functions={functions[2]}
         />
         <CardWithAvatar
           title="Sara"
           description="YMarketer Assistant"
           imageUrl={Assistant3}
-          buttonUrl="https://example.com/link3"
+          buttonUrl="sara"
           functions={functions[3]}
         />
       </div>

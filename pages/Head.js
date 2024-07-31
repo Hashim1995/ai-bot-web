@@ -1,13 +1,21 @@
 import Head from "next/head";
 
-const PageHead = ({ title }) => {
+const PageHead = ({ title, description, image  }) => {
   return (
     <>
       <Head>
-        <title>{title} || AI-Zade</title>
-        <meta name="description" content="Page Description" />
+        <title>{title} || ABLARVA</title>
+        <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.png" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={image} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={image} />
       </Head>
     </>
   );
